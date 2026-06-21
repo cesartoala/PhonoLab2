@@ -37,18 +37,18 @@ function showView(name) {
 
 function loadAttempts() {
   try {
-    return JSON.parse(localStorage.getItem("phonolearn_attempts") || "[]");
+    return JSON.parse(localStorage.getItem("phonolab_attempts") || "[]");
   } catch { return []; }
 }
 
 function saveAttempt(attempt) {
   const all = loadAttempts();
   all.push(attempt);
-  localStorage.setItem("phonolearn_attempts", JSON.stringify(all));
+  localStorage.setItem("phonolab_attempts", JSON.stringify(all));
 }
 
 function clearAttempts() {
-  localStorage.removeItem("phonolearn_attempts");
+  localStorage.removeItem("phonolab_attempts");
 }
 
 // ─── Home View ────────────────────────────────────────────────────────────────
