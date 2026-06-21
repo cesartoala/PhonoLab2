@@ -306,12 +306,12 @@ button {
 .btn-listen {
   background: var(--navy);
   color: var(--white);
-  padding: 2.25rem 4.5rem;
-  border-radius: 14px;
-  font-size: 3rem;
+  padding: .75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
   font-weight: 600;
   transition: background .15s;
-  min-width: 390px;
+  min-width: 130px;
 }
 
 .btn-listen:hover:not(:disabled) { background: #253565; }
@@ -320,12 +320,12 @@ button {
 .btn-record {
   background: var(--red);
   color: var(--white);
-  padding: 2.25rem 4.5rem;
-  border-radius: 14px;
-  font-size: 3rem;
+  padding: .75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
   font-weight: 600;
   transition: background .15s, box-shadow .15s;
-  min-width: 390px;
+  min-width: 130px;
 }
 
 .btn-record:hover:not(:disabled) { background: var(--red-lt); }
